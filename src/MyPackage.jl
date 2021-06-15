@@ -1,5 +1,14 @@
 module MyPackage
+  
+  export f
+  export teste1
 
-# Write your package code here.
+  f(x) = 10*x
+
+  # Meus testes
+  function teste1(n)
+    println(f(n))
+  end
+
 
 end
