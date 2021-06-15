@@ -1,10 +1,11 @@
 module MyPackage
   
-  export f
-  export f2
+export f
+export f2
 
-  f(x) = 10*x
+f(x) = 10*x
 
-  include("./f2.jl")
+include("./f2.jl")
+
 
 end
